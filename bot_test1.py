@@ -3,7 +3,7 @@ import pyautogui as pg
 from time import *
 sleep(2)
 def MagicPianoBot():
-    #3 columns: (762, 400), (839, 400), (949, 400)
+    #4 columns: (762, 400), (798, 400), (881, 400), (949, 400)
     while keyboard.is_pressed('q') == False:
         if pg.pixel(762, 400)[0] == 0:
             pg.mouseDown(762, 400)
